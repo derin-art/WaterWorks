@@ -1,6 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-.less-go{
-    
-}
+
+@font-face {
+    font-family:"Anek" ;
+    src: url("../public/Anek_Malayalam/AnekMalayalam-VariableFont_wdth\,wght.ttf");
+  }
+  
