@@ -7,7 +7,7 @@ import { Link, useLocation } from "react-router-dom";
 
 export default function Header(){
     const location = useLocation().pathname
-    console.log(location)
+    
     return <div className="flex flex-col p-8 font-Anek w-full ">
       
         <div className="flex items-center justify-center">
