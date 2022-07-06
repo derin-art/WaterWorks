@@ -19,15 +19,15 @@ const vapourIcon = <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" w
         <div className="flex flex-col sm:flex-row max-w-screen">
             <img src= {WaterBottle} className="rounded-lg sm:w-96 lg:w-[400px]">
             </img>
-            <div className="font-bold text-3xl mt-10 sm:mt-0 sm:text-5xl lg:text-7xl flex border-l-8 border-blue-300 items-center bg-gray-100 ml-8 rounded-l-lg justify-center p-4 leading-10 tracking-lg">
+            <div className="font-bold text-2xl mt-10 sm:mt-0 hidden sm:flex sm:text-5xl lg:text-7xl flex sm:border-l-8 sm:border-blue-300 items-center rounded-2xl sm:bg-gray-100 sm:ml-8 sm:rounded-l-lg justify-center p-4 leading-10 tracking-lg">
                 <div className="">
-                Crystal <span className="text-blue-400">Clear,</span>
+          Crystal <span className="text-blue-400">Clear, </span>
                  Yet full of healthy minerals, Just for <span className="text-blue-400">You.</span>
                 </div>
             </div>
         </div>
 
-        <div className="flex max-w-screen overflow-x-hidden sm:mt-16 mt-10 flex-col sm:flex-row">
+        <div className="flex max-w-screen overflow-x-hidden sm:mt-16 mt-10 hidden sm:flex">
             <div className="font-bold text-2xl sm:text-5xl lg:text-7xl flex items-center mb-4 sm:mb-0 bg-gray-100 border-r-8 border-black mr-6 sm:mr-8 rounded-r-lg justify-center text-gray-700 sm:p-6 p-6 leading-12 tracking-lg">
                 <div>
                     Sourced From the <span className="text-green-400">Springs</span> of Abuja, and Engineered to keep you on the <span className="text-green-400">Go!</span>
@@ -38,6 +38,17 @@ const vapourIcon = <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" w
             <img src={ManDrinking} className="sm:h-full h-32 w-screen -mr-6 object-cover self-end sm:w-fit object-left rounded-l-lg sm:mr-4 sm:max-h-[600px]"></img>
    
         </div>
+
+        <div className="flex items-center justify-center mt-24 sm:hidden">
+        <div className="w-64 ">
+        <img src={ManDrinking} className="rounded-t-3xl"></img>
+        <div className="p-8 rounded-b-3xl bg-gray-100 text-xl bg-black text-white">
+        Sourced From the <span className="text-green-400 font-bold">Springs </span> 
+        of Abuja, and Engineered to keep you on the <span className="text-green-400">Go!</span>
+        </div>
+        </div>
+        </div>
+
 <div className="flex items-center justify-center mt-20">
     
 <div className="flex flex-col md:flex-row justify-between md:items-stretch md:w-4/5 items-center justify-center">

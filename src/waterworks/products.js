@@ -31,7 +31,7 @@ export default function Products(){
                 </div>
             </div>
             <div className="md:mr-32 flex flex-col md:flex-row items-center justify-center">
-                <img src={WaterDispenser1} className="w-96">
+                <img src={WaterDispenser1} className="w-96 p-6">
                 </img>
                 <div className="text-3xl text-green-400 p-4">
                     Dispeneser Water
