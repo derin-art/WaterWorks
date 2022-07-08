@@ -172,35 +172,36 @@ export default function MainPage() {
         </div>
       </div>
 
-      <div className="flex items-center flex-col justify-center font-bold backdrop-blur-lg mt-20 pb-10 hidden sm:flex">
+      <div className="flex items-center flex-col justify-center font-bold backdrop-blur-lg mt-20 pb-10">
         <div className="w-fit">
-          <div className="text-9xl text-black p-10 pl-0 self-start">
-            <p className=""> Products</p>
-            <p className="text-4xl">
+          <div className="sm:text-9xl text-3xl text-black mb-4 sm:mb-0 sm:p-10 pl-0 sm:self-start sm:-ml-8 ml-2">
+            <p className="">
               What we <span className="text-blue-300">offer.</span>
             </p>
           </div>
 
-          <div className="flex w-fit border-2 border-t-4 bg-white border-b-4 p-10 rounded-3xl border-blue-100 shadow-lg">
-            <div className="text-8xl mt-10 text-blue-300">
+          <div className="flex w-fit border-2 border-t-4 bg-white border-b-4 sm:p-10 p-6 mx-2 sm:mx-0 rounded-3xl border-blue-100 shadow-lg">
+            <div className="sm:text-8xl text-3xl mt-10 text-blue-300">
               <p className="text-lg text-black">Our Flagship</p>
               <div className="">
                 <p className=""> Regular!</p>
-                <p className="text-2xl text-black">
+                <p className="sm:text-4xl text-xl text-black">
                   You cant go wrong with it!
                 </p>
               </div>
             </div>
 
-            <img src={WaterBottle} className="w-[300px]"></img>
+            <img src={WaterBottle} className="sm:w-[300px] w-[100px]"></img>
           </div>
-          <div className="flex w-fit border mt-20 p-10 shadow-lg rounded-3xl bg-white rounded-3xl border-green-200 border-t-4 border-b-4">
-            <div className="text-8xl mt-10 text-green-300">
-              <p className="text-2xl text-black">Coming soon</p>
+          <div className="flex w-fit border mt-20 sm:p-10 p-6 mx-2 shadow-lg rounded-3xl bg-white rounded-3xl border-green-200 border-t-4 border-b-4">
+            <div className="sm:text-8xl text-3xl mt-10 text-green-300">
+              <p className="sm:text-2xl text-xl text-black">Coming soon</p>
               Lime
-              <p className="text-2xl text-black">Refreshing Citrus</p>
+              <p className="sm:text-4xl text-xl text-black">
+                Refreshing Citrus
+              </p>
             </div>
-            <img src={LimeWater} className="w-[400px]"></img>
+            <img src={LimeWater} className="sm:w-[400px] w-[150px]"></img>
           </div>
         </div>
       </div>

@@ -9,7 +9,7 @@ export default function Products() {
     <div className="w-full font-Anek pb-20">
       <div className="flex flex-col items-center justify-center">
         <div className="flex flex-col md:flex-row md:mr-32 md:mb-10">
-          <img src={LimeWater} className="h-[300px]"></img>
+          <img src={LimeWater} className="h-[350px]"></img>
           <div className="text-3xl text-green-400 p-6 rounded-lg">
             LimeWater
             <div className="text-sm md:w-96 w-72 text-black">
@@ -19,7 +19,7 @@ export default function Products() {
         </div>
 
         <div className="md:mr-32 flex flex-col md:flex-row items-center justify-center md:mb-10">
-          <img src={WaterBottle} className="w-48 md:w-[350px]"></img>
+          <img src={WaterBottle} className="w-[280px] md:w-[350px]"></img>
           <div className="text-3xl text-green-400 p-4">
             Bottled Water
             <div className="text-sm w-72 md:w-96 text-black">

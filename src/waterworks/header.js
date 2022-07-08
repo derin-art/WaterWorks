@@ -25,7 +25,7 @@ export default function Header() {
             Home
           </button>
         </Link>
-        <Link to="/products" className="block sm:hidden">
+        <Link to="/products" className="hidden">
           <button
             className={`px-2 pb-0 text-gray-500 ${
               location === "/products" ? "text-green-400" : ""
